@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar } from '../../components';
+
 
 import './Header.css';
 
@@ -13,7 +13,7 @@ function Header () {
                 </section>
                 <section className='header-top__navbar'>
                     <section className='header-top__navigation'>
-                        <Navbar />
+                        
                     </section>
                     <hr className='header-top__seperator' />
                 </section>
