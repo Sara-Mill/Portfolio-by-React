@@ -1,0 +1,8 @@
+.header-logo {
+    font-size: larger;
+}
+.header-top__navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
