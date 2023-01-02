@@ -60,7 +60,7 @@
   ## Demo
   ![image of demo screenshot:](./images/demo.png)
 
-  This application is deployed live [here](https://saramarie-portfolio.herokuapp.com/#about)
+  This application is deployed live [here](https://saramarie-portfolio.herokuapp.com)
 
   <a name = 'license'></a>
   ## License
