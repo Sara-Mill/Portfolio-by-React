@@ -1,9 +1,9 @@
 # Portfolio-by-React
 
 # User Story
-    AS AN employer looking for candidates with experience building single-page applications
-    I WANT to view a potential employee's deployed React portfolio of work samples
-    SO THAT I can assess whether they're a good candidate for an open position
+    AS A developer looking for new opportunities and having experience building single-page applications
+    I WANT to showcase portfolio of work samples 
+    SO THAT I can demonstrate my proficiencies with Javascript
 
 ## Table of Contents
   * [Description](#description)
@@ -58,7 +58,7 @@
 
   <a name ='demo'></a>
   ## Demo
-  ![image of demo screenshot:](./images/demo.png)
+  ![image of demo screenshot:](./src/images/demo.png)
 
   This application is deployed live [here](https://saramarie-portfolio.herokuapp.com)
 
