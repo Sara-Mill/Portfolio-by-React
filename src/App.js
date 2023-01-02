@@ -9,14 +9,7 @@ function App() {
       <Header />
 
       <PortfolioContainer />
-      <br />
-      <br />
-      <br />
-      <br />
-      Hello
-      <br />
-      <br />
-      <br />
+      
       <Footer />
     </div>
   );
