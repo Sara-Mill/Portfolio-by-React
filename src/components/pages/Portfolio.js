@@ -31,7 +31,7 @@ export default function About() {
               <FaGithub color="black" size="34px" />
             </a>
             <a href="https://pwa-jate-mystic-app.herokuapp.com">
-              <p class="project-links">REST API</p>
+              <p class="project-links">REST API: Artist-Profile</p>
               <img
                 src={KYA}
                 alt="Black background showing with list of top 5 tracks on the left, and a youtube video by the artist on the right."
@@ -48,7 +48,7 @@ export default function About() {
                   <FaGithub color="black" size="34px" />
                 </a>
                 <a href="https://dear-reader-22-app.herokuapp.com/">
-                  <p class="project-links">Drop Everything and Read</p>
+                  <p class="project-links">SQL Database: Drop Everything and Read</p>
                   <img
                     src={DEAR}
                     alt="book opening up spreading light"

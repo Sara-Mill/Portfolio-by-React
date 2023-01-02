@@ -1,9 +1,10 @@
 body {
   background-image: url("../../images/longsPeak.png");
-  background-position: cover;
-  background-size: cover;
+  background-position: center;
+  background-size: 2300px;
   background-repeat: repeat;
   height: 100%;
+
 }
 .project-thumbnails {
   height: 90%;
