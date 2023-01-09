@@ -3,6 +3,8 @@ import JATE from "../../images/JATE.png";
 import SNAPI from "../../images/SNAPI.png";
 import DEAR from "../../images/DEAR.png";
 import KYA from "../../images/KYA.png";
+import CHOICE from "../../images/CHOICE.png";
+import RNG from "../../images/RNG.png";
 import style from "./portfolio.css";
 import { FaGithub } from "react-icons/fa";
 
@@ -10,70 +12,118 @@ export default function About() {
   return (
     <div>
       <h1>Portfolio </h1>
-      <div className="images-container">
-        <div>
-          <a href="https://github.com/Sara-Mill/PWA-text-editor">
-            <FaGithub color="black" size="34px" />
-          </a>
-          <a href="https://pwa-jate-mystic-app.herokuapp.com">
-            <p class="project-links">Progressive Web Application</p>
-            <img
-              src={JATE}
-              alt="Black background, with text editor in yellow."
-              class="project-thumbnails"
-            ></img>
-          </a>
-        </div>
-        <br></br>
-        <div className="images-container">
+      <div className="images-container-outer">
+        <div className="images-container1">
+        
           <div>
             <a href="https://github.com/Sara-Mill/Artist-Profile">
               <FaGithub color="black" size="34px" />
             </a>
             <a href="https://pwa-jate-mystic-app.herokuapp.com">
-              <p class="project-links">REST API: Artist-Profile</p>
+              <p className="project-links">Collaboration on a REST API: Artist-Profile</p>
               <img
                 src={KYA}
                 alt="Black background showing with list of top 5 tracks on the left, and a youtube video by the artist on the right."
-                class="project-thumbnails"
+                className="project-thumbnails"
               ></img>
             </a>
           </div>
-          <br></br>
+          </div>
+          
           <div className="images-container">
-            <br></br>
-            <div className="images-container">
+        
+        <div>
+          <a href="https://github.com/Sara-Mill/PWA-text-editor">
+            <FaGithub color="black" size="34px" />
+          </a>
+          <a href="https://pwa-jate-mystic-app.herokuapp.com">
+            <p className="project-links">Progressive Web Application</p>
+            <img
+              src={JATE}
+              alt="Black background, with text editor in yellow."
+              className="project-thumbnails"
+            ></img>
+          </a>
+          </div>
+        </div>
+     
+        
+          <div className="images-container">
+            
+            
               <div>
                 <a href="https://github.com/LizBailey75/DEAR-Reader">
                   <FaGithub color="black" size="34px" />
                 </a>
                 <a href="https://dear-reader-22-app.herokuapp.com/">
-                  <p class="project-links">SQL Database: Drop Everything and Read</p>
+                  <p className="project-links">Collaboration on a SQL Database: Drop Everything and Read</p>
                   <img
                     src={DEAR}
                     alt="book opening up spreading light"
-                    class="project-thumbnails"
+                    className="project-thumbnails"
+                  ></img>
+                </a>
+              
+              </div>
+            </div>
+            <div className="images-container">
+            
+           
+              <div>
+                <a href="https://github.com/drewrvaz/dev-team-launch">
+                  <FaGithub color="black" size="34px" />
+                </a>
+                <a href="https://dev-team-launch.herokuapp.com/">
+                  <p className="project-links">Collaboration on a MERN Appication: Team Creator</p>
+                  <img
+                    src={CHOICE}
+                    alt="grey background with wind blowing snow off the top of a mountain"
+                    className="project-thumbnails"
+                  ></img>
+                </a>
+              
+             </div>
+            </div>
+            <div className="images-container">
+           
+            
+              <div>
+                <a href="https://github.com/Sara-Mill/random_name_generator">
+                  <FaGithub color="black" size="34px" />
+                </a>
+                <a href="https://random-name-generator.herokuapp.com/">
+                  <p className="project-links">React Random Name Generator</p>
+                  <img
+                    src={RNG}
+                    alt="back background with large blue react icon spinning in center, and a toggle bar at top"
+                    className="project-thumbnails"
                   ></img>
                 </a>
               </div>
-              <br></br>
+              
             </div>
+           
+            <div className="images-container">
+        
+      
             <div>
               <a href="https://github.com/Sara-Mill/Social_Network_API_NoSQL">
                 <FaGithub color="black" size="34px" />
               </a>
               <a href="https://github.com/Sara-Mill/Social_Network_API_NoSQL">
-                <p class="project-links">Social Network API NoSQL</p>
+                <p className="project-links">Social Network API NoSQL</p>
                 <img
                   src={SNAPI}
                   alt="Black background showing table of employees in white."
-                  class="project-thumbnails"
+                  className="project-thumbnails"
                 ></img>
               </a>
             </div>
+            </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
+       
+     
+  
   );
 }
