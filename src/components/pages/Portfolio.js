@@ -17,10 +17,10 @@ export default function About() {
         <div className="images-container1">
         
           <div>
-            <a href="https://github.com/Sara-Mill/Artist-Profile">
+            <a href="https://github.com/Sara-Mill/Artist-Profile" target="_blank" rel="noreferrer">
               <FaGithub color="black" size="34px" />
             </a>
-            <a href="https://pwa-jate-mystic-app.herokuapp.com">
+            <a href="https://pwa-jate-mystic-app.herokuapp.com" target="_blank" rel="noreferrer">
               <p className="project-links">Collaboration on a REST API: Artist-Profile</p>
               <img
                 src={KYA}
@@ -34,10 +34,10 @@ export default function About() {
           <div className="images-container">
         
         <div>
-          <a href="https://github.com/Sara-Mill/PWA-text-editor">
+          <a href="https://github.com/Sara-Mill/PWA-text-editor" target="_blank" rel="noreferrer">
             <FaGithub color="black" size="34px" />
           </a>
-          <a href="https://pwa-jate-mystic-app.herokuapp.com">
+          <a href="https://pwa-jate-mystic-app.herokuapp.com" target="_blank" rel="noreferrer">
             <p className="project-links">Progressive Web Application</p>
             <img
               src={JATE}
@@ -53,10 +53,10 @@ export default function About() {
             
             
               <div>
-                <a href="https://github.com/LizBailey75/DEAR-Reader">
+                <a href="https://github.com/LizBailey75/DEAR-Reader" target="_blank" rel="noreferrer">
                   <FaGithub color="black" size="34px" />
                 </a>
-                <a href="https://dear-reader-22-app.herokuapp.com/">
+                <a href="https://dear-reader-22-app.herokuapp.com/" target="_blank" rel="noreferrer">
                   <p className="project-links">Collaboration on a SQL Database: Drop Everything and Read</p>
                   <img
                     src={DEAR}
@@ -71,10 +71,10 @@ export default function About() {
             
            
               <div>
-                <a href="https://github.com/drewrvaz/dev-team-launch">
+                <a href="https://github.com/drewrvaz/dev-team-launch" target="_blank" rel="noreferrer">
                   <FaGithub color="black" size="34px" />
                 </a>
-                <a href="https://dev-team-launch.herokuapp.com/">
+                <a href="https://dev-team-launch.herokuapp.com/" target="_blank" rel="noreferrer">
                   <p className="project-links">Collaboration on a MERN Application: Team Creator</p>
                   <img
                     src={CHOICE}
@@ -86,10 +86,10 @@ export default function About() {
              </div>
             </div>
             <div>
-                <a href="https://github.com/Sara-Mill/New-Password-Generator">
+                <a href="https://github.com/Sara-Mill/New-Password-Generator" target="_blank" rel="noreferrer">
                   <FaGithub color="black" size="34px" />
                 </a>
-                <a href="https://sara-mill.github.io/New-Password-Generator/">
+                <a href="https://sara-mill.github.io/New-Password-Generator/" target="_blank" rel="noreferrer">
                   <p className="project-links">Vanilla Javascript: Password Generator</p>
                   <img
                     src={PW_G}
@@ -104,10 +104,10 @@ export default function About() {
            
             
               <div>
-                <a href="https://github.com/Sara-Mill/random_name_generator">
+                <a href="https://github.com/Sara-Mill/random_name_generator" target="_blank" rel="noreferrer">
                   <FaGithub color="black" size="34px" />
                 </a>
-                <a href="https://random-name-generator.herokuapp.com/">
+                <a href="https://random-name-generator.herokuapp.com/" target="_blank" rel="noreferrer">
                   <p className="project-links">React Random Name Generator</p>
                   <img
                     src={RNG}
@@ -123,10 +123,10 @@ export default function About() {
         
       
             <div>
-              <a href="https://github.com/Sara-Mill/Social_Network_API_NoSQL">
+              <a href="https://github.com/Sara-Mill/Social_Network_API_NoSQL" target="_blank" rel="noreferrer">
                 <FaGithub color="black" size="34px" />
               </a>
-              <a href="https://github.com/Sara-Mill/Social_Network_API_NoSQL">
+              <a href="https://github.com/Sara-Mill/Social_Network_API_NoSQL" target="_blank" rel="noreferrer">
                 <p className="project-links">Social Network API NoSQL</p>
                 <img
                   src={SNAPI}
