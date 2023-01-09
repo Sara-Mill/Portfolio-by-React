@@ -5,6 +5,7 @@ import DEAR from "../../images/DEAR.png";
 import KYA from "../../images/KYA.png";
 import CHOICE from "../../images/CHOICE.png";
 import RNG from "../../images/RNG.png";
+import PW_G from "../../images/PW_G.png";
 import style from "./portfolio.css";
 import { FaGithub } from "react-icons/fa";
 
@@ -74,10 +75,25 @@ export default function About() {
                   <FaGithub color="black" size="34px" />
                 </a>
                 <a href="https://dev-team-launch.herokuapp.com/">
-                  <p className="project-links">Collaboration on a MERN Appication: Team Creator</p>
+                  <p className="project-links">Collaboration on a MERN Application: Team Creator</p>
                   <img
                     src={CHOICE}
                     alt="grey background with wind blowing snow off the top of a mountain"
+                    className="project-thumbnails"
+                  ></img>
+                </a>
+              
+             </div>
+            </div>
+            <div>
+                <a href="https://github.com/Sara-Mill/New-Password-Generator">
+                  <FaGithub color="black" size="34px" />
+                </a>
+                <a href="https://sara-mill.github.io/New-Password-Generator/">
+                  <p className="project-links">Vanilla Javascript: Password Generator</p>
+                  <img
+                    src={PW_G}
+                    alt="white background with dashed boxes displaying generated password, and a red button below"
                     className="project-thumbnails"
                   ></img>
                 </a>
@@ -120,9 +136,7 @@ export default function About() {
               </a>
             </div>
             </div>
-            </div>
-          </div>
-       
+            </div>   
      
   
   );
