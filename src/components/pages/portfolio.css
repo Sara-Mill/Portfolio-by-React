@@ -12,11 +12,8 @@ body {
   display: flex;
 }
 .images-container-outer {
-
-  flex-direction:row;
   padding: 5px;
   margin: auto;
-  align-content: flex-start;
 }
 .images-container {
   

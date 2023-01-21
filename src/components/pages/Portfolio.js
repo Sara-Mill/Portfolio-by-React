@@ -4,7 +4,7 @@ import SNAPI from "../../images/SNAPI.png";
 import DEAR from "../../images/DEAR.png";
 import KYA from "../../images/KYA.png";
 import CHOICE from "../../images/CHOICE.png";
-import RNG from "../../images/RNG.png";
+import RTG from "../../images/RTG.png";
 import PW_G from "../../images/PW_G.png";
 import style from "./portfolio.css";
 import { FaGithub } from "react-icons/fa";
@@ -14,7 +14,7 @@ export default function About() {
     <div>
       <h1>Portfolio </h1>
       <div className="images-container-outer">
-        <div className="images-container1">
+        <div className="images-container">
           <div>
             <a
               href="https://github.com/Sara-Mill/Artist-Profile"
@@ -90,6 +90,7 @@ export default function About() {
           </div>
         </div>
 
+        <div className="images-container">
         <div>
           <a
             href="https://github.com/Sara-Mill/New-Password-Generator"
@@ -114,23 +115,24 @@ export default function About() {
           </a>
         </div>
       </div>
+     
       <div className="images-container">
         <div>
           <a
-            href="https://github.com/Sara-Mill/random_name_generator"
+            href="https://github.com/Sara-Mill/random_team_generator"
             target="_blank"
             rel="noreferrer"
           >
             <FaGithub color="black" size="34px" />
           </a>
           <a
-            href="https://random-name-generator.herokuapp.com/"
+            href="https://random-human-picker.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
-            <p className="project-links">React Random Name Generator</p>
+            <p className="project-links">React Random Team Generator</p>
             <img
-              src={RNG}
+              src={RTG}
               alt="back background with large blue react icon spinning in center, and a toggle bar at top"
               className="project-thumbnails"
             ></img>
@@ -160,6 +162,7 @@ export default function About() {
             ></img>
           </a>
         </div>
+      </div>
       </div>
     </div>
   );
