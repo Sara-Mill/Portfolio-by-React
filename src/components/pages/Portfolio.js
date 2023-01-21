@@ -133,7 +133,7 @@ export default function About() {
             <p className="project-links">React Random Team Generator</p>
             <img
               src={RTG}
-              alt="back background with large blue react icon spinning in center, and a toggle bar at top"
+              alt="black background with green and white boxes that display input and output"
               className="project-thumbnails"
             ></img>
           </a>
